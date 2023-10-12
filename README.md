@@ -31,7 +31,7 @@ This guide will walk you through the steps to deploy the E-commerce Micro servic
 
 1. Clone the repository containing the E-commerce Microservices project:
     ```
-    git clone https://github.com/cvamsikrishna11/ecommerce-micro-services.git
+    git clone https://github.com/mariusforreal/ecommerce-micro-service-web.git
     ```
 
 2. Change directory to the project:
@@ -40,11 +40,11 @@ This guide will walk you through the steps to deploy the E-commerce Micro servic
     ```
 3. Build docker image:
     ```
-    docker build -t jjtech-web-image .
+    docker build -t web-image .
     ```
 4. Run docker image:
     ```
-    docker run -d -p 80:80 jjtech-web-image
+    docker run -d -p 80:80 web-image
     ```
 
 ## Step 3: Access the website
